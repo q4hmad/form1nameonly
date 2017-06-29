@@ -1,8 +1,11 @@
 $(document).ready(function() {
   $("#nameForm form").submit(function(event) {
-    var theirNameInput = $("input#theirName").val();
+    var blanks = ["theirName", "theirAge"];
+    blanks.forEach(function(blank){
+      var userInput = $("input#" + blank).val();
+      $("." + blank).text(userInput);
+    })
 
-    $(".theirName").text(theirNameInput);
     $("#letter").show();
 
     event.preventDefault();
