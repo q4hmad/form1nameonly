@@ -9,21 +9,27 @@
   </head>
   <body>
     <div class="container">
-      <h1>Please read and fill out all questions in the following letter:</h1>
+      <div class="row"><div  id="mainHeading">
+      <h1>Buy Local PDX :</h1>
+      <h5>Welcome to our store. We're glad you are here!</h5>
+    </div>
+  </div>
+    <div class="row">
       <div id="nameForm">
         <form>
           <div class="get-name">
             <label for="theirName">Your name:</label>
-            <input id="theirName" class="form-control" type="text">
+            <input id="theirName" class="form-control" type="text" placeholder="Your name">
           </div>
-          <div class="get-name">
-            <label for"their age">What is your age?</label>
-            <input id="theirAge" type="text" class="form-control">
+          <div class="get-address">
+            <label for"their address">Address</label>
+            <input id="theirAddress" type="text" class="form-control" placeholder="Your Address">
           </div>
 
-          <button type="submit" class="btn">Click for immediate reply</button>
+          <button type="submit" class="btn">Your order summary:</button>
         </form>
       </div>
+    </div>
 
       <div id="letter">
         <h3>Dear <span class="theirName"></span></h3>

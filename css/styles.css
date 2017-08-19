@@ -1,3 +1,21 @@
+h1 {
+   color: #EFDEF1; font-family: "Helvetica Neue",Arial,sans-serif; font-size: 66px;
+   text-align: center; font-weight: 300; line-height: 1.5625;
+}
+h5 {
+  color:#65286C; font-family: "Helvetica Neue",Arial,sans-serif; font-size: 36px;
+  text-align: center; font-weight: 300; line-height: 1.5625;
+}
+
+
+}
+
 #letter {
   display: none;
 }
+#mainHeading {
+  background-image: linear-gradient(purple, white);
+}
+.btn (
+  text-align: center;
+  )
